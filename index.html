@@ -1,21 +1,90 @@
 <!DOCTYPE html>
 
-<style>
-    body {
-        background-color: lightblue;
-    }
-    h1 {
-        color: darkblue;
-    }
-</style>
-
-<html>
+<html lang="en">
 <head>
-    <title>Evelyn Bizovi Home Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: linear-gradient(to bottom, #e6f7ec, #ffffff);
+      color: #2e6042;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #4caf50;
+      color: #ffffff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    main h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    main p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      background: #2e6042;
+      color: #ffffff;
+      padding: 0.8rem 2rem;
+      font-size: 1.1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .cta-button:hover {
+      background: #3e805b;
+    }
+    footer {
+      background: #e6f7ec;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #4caf50;
+    }
+  </style>
 </head>
 <body>
-    <h1>Evelyn Bizovi Home Page</h1>
-    <p>excited to be here.</p>
-    
+
+  <header>
+    <h1>Your Name Here</h1>
+    <p>Building exciting futures through user-centered design, creativity, and workflow optimization.</p>
+  </header>
+
+  <main>
+    <h2>Welcome</h2>
+    <p>
+      I’m passionate about blending innovation with simplicity.
+      Explore my work, learn about my journey, and let's build something extraordinary together.
+    </p>
+    <a href="#contact" class="cta-button">Get in Touch</a>
+  </main>
+
+  <footer id="contact">
+    Let's connect! Find me on <a href="www.linkedin.com/in/evelyn-bizovi" target="_blank" style="color:#2e6042; text-decoration:underline;">LinkedIn</a> or send me a message.
+  </footer>
+
 </body>
 </html>
